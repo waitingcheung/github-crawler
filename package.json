@@ -1,0 +1,19 @@
+{
+    "name": "github-crawler",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test/testrunner.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "github": "^2.2.0",
+        "minimist": "^1.2.0",
+        "fs-extra": "0.30.0",
+        "qunit": "^0.9.1",
+        "istanbul": "0.4.3",
+        "assert": "1.3.0"
+    }
+}

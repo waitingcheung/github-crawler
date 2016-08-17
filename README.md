@@ -18,6 +18,8 @@ In ``testAuth.json``, input the following:
 }
 ```
 
+If you do not have a token, follow [here](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) to create one.
+
 ## Usage
 
 This project uses the [Node.js wrapper for GitHub API](https://github.com/mikedeboer/node-github) and the formats of parameters follow those of [issues.getForRepo](https://mikedeboer.github.io/node-github/#api-issues-getForRepo) of the API. For default parameters please refer to [index.js](https://github.com/waitingcheung/github-crawler/blob/master/index.js#L14).
